@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-gilda font-bold;
+  background-color: black; /* Set the background color to black */
+  background-image: url("./bgImg.jpeg") !important;
+  background-blend-mode:luminosity;
+  background-position: 60% 40%;
+  background-size: cover; /* Use 'cover' to fill the screen */
+  background-repeat: no-repeat;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
